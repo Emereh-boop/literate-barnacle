@@ -23,6 +23,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://emereh-boop.github.io/my-app",
   "browserslist": {
     "production": [
       ">0.2%",

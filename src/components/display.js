@@ -10,7 +10,7 @@ export default function Display(props) {
           </div>
           <div className="disp">
             <img src="./images/icon-dollar.svg" alt="" />
-            {props.tipAmount() != Infinity || NaN
+            {props.tipAmount() !== Infinity || NaN
               ? `${props.tipAmount()}`
               : " 0 "}
           </div>
@@ -21,7 +21,9 @@ export default function Display(props) {
           </div>
           <div className="disp">
             <img src="./images/icon-dollar.svg" alt="" />
-            {props.totalTip() != Infinity || NaN ? `${props.totalTip()}` : " 0"}
+            {props.totalTip() !== Infinity || NaN
+              ? `${props.totalTip()}`
+              : " 0"}
           </div>
         </div>
       </div>

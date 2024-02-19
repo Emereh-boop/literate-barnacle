@@ -1,7 +1,6 @@
 import React from "react";
 import Form from "./form";
 import Display from "./display";
-import { nanoid } from "nanoid";
 
 export default function Main(props) {
   const [tipData, setTipData] = React.useState({

@@ -26,7 +26,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://splitter-calculator.com",
   "browserslist": {
     "production": [
       ">0.2%",
